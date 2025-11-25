@@ -1,3 +1,16 @@
+import ful_kopi from "./ful_kopi.png"
+import capsicum from "./capsicum.png"
+import lau from "./lau.png"
+import deshi_roshun from "./deshi_roshun.png"
+import lal_shakh from "./lal_shakh.png"
+import morich from "./morich.png"
+import potol from "./potol.png"
+import kacha_pepe from "./kacha_pepe.png"
+import dheros from "./dheros.png"
+import potato from "./potato.png"
+import carrot from "./carrot.png"
+import tomatto from "./tomatto.png"
+import women_model from "./women_model.png"
 import gs_logo from "./gs_logo.jpg"
 import happy_store from "./happy_store.webp"
 import upload_area from "./upload_area.svg"
@@ -22,13 +35,13 @@ import profile_pic2 from "./profile_pic2.jpg"
 import profile_pic3 from "./profile_pic3.jpg"
 
 export const assets = {
-    upload_area, hero_model_img,
-    hero_product_img1, hero_product_img2, gs_logo,
+    upload_area, hero_model_img,ful_kopi,carrot,potato,dheros,potol,morich,lal_shakh,deshi_roshun,
+    hero_product_img1, hero_product_img2, gs_logo,tomatto,women_model,kacha_pepe,lau,capsicum,
     product_img1, product_img2, product_img3, product_img4, product_img5, product_img6,
     product_img7, product_img8, product_img9, product_img10, product_img11, product_img12,
 }
 
-export const categories = ["Headphones", "Speakers", "Watch", "Earbuds", "Mouse", "Decoration"];
+export const categories = ["Carrot", "Cauliflower", "Broccoli", "Cabbage", "Spinach", "Cucumber"];
 
 export const dummyRatingsData = [
     { id: "rat_1", rating: 4.2, review: "I was a bit skeptical at first, but this product turned out to be even better than I imagined. The quality feels premium, it's easy to use, and it delivers exactly what was promised. I've already recommended it to friends and will definitely purchase again in the future.", user: { name: 'Kristin Watson', image: profile_pic1 }, productId: "prod_1", createdAt: 'Sat Jul 19 2025 14:51:25 GMT+0530 (India Standard Time)', updatedAt: 'Sat Jul 19 2025 14:51:25 GMT+0530 (India Standard Time)', product: { name: 'Bluetooth Speakers', category:'Electronics', id:'prod_1'} },
@@ -64,11 +77,11 @@ export const dummyStoreData = {
 export const productDummyData = [
     {
         id: "prod_1",
-        name: "Modern table lamp",
-        description: "Modern table lamp with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty. Enhance your audio experience with this earbuds. Indulge yourself in a world of pure sound with 50 hours of uninterrupted playtime. Equipped with the cutting-edge Zen Mode Tech ENC and BoomX Tech, prepare to be enthralled by a symphony of crystal-clear melodies.",
+        name: "Tomato",
+        description: "Fresh and juicy tomato, bursting with natural flavor. Perfect for salads, sauces, and cooking. Grown with care using high-quality farming practices, ensuring every bite is rich in taste and nutrients. Packed with vitamins and antioxidants, it’s a healthy addition to any meal. Experience the vibrant color and succulent texture that elevates every dish.",
         mrp: 40,
         price: 29,
-        images: [product_img1, product_img2, product_img3, product_img4],
+        images: [tomatto, ful_kopi, carrot, product_img4],
         category: "Decoration",
         storeId: "seller_1",
         inStock: true,
@@ -79,11 +92,11 @@ export const productDummyData = [
     },
     {
         id: "prod_2",
-        name: "Smart speaker gray",
-        description: "Smart speaker with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
+        name: "Cauliflower",
+        description: "Fresh cauliflower with a crisp texture. Perfect for any meal, from salads to roasted dishes. Grown with high-quality farming practices, ensuring premium taste and nutrition. A wholesome addition to your kitchen, bringing flavor, health, and versatility to every dish.",
         mrp: 50,
         price: 29,
-        images: [product_img2],
+        images: [ful_kopi],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
@@ -94,11 +107,11 @@ export const productDummyData = [
     },
     {
         id: "prod_3",
-        name: "Smart watch white",
-        description: "Smart watch with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
+        name: "Carrot",
+        description: "Fresh and crunchy carrots with vibrant color. Perfect for snacking, cooking, or juicing. Grown with high-quality farming practices, ensuring natural sweetness and maximum nutrition. Add a healthy, versatile, and flavorful touch to every meal.",
         mrp: 60,
         price: 29,
-        images: [product_img3],
+        images: [carrot],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
@@ -109,11 +122,11 @@ export const productDummyData = [
     },
     {
         id: "prod_4",
-        name: "Wireless headphones",
-        description: "Wireless headphones with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
+        name: "Potato",
+        description: "Fresh and versatile potatoes, perfect for roasting, boiling, frying, or mashing. Grown with high-quality farming practices, ensuring rich taste and firm texture. A wholesome and essential ingredient that brings flavor and satisfaction to every meal.",
         mrp: 70,
         price: 29,
-        images: [product_img4],
+        images: [potato],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
@@ -124,11 +137,11 @@ export const productDummyData = [
     },
     {
         id: "prod_5",
-        name: "Smart watch black",
-        description: "Smart watch with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
+        name: "kacha pepe",
+        description: "Fresh and spicy kacha pepe, perfect for adding a fiery kick to any dish. Grown with high-quality farming practices, ensuring crisp texture and vibrant flavor. A must-have ingredient for enhancing taste and bringing bold zest to every meal.",
         mrp: 49,
         price: 29,
-        images: [product_img5],
+        images: [kacha_pepe],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
@@ -139,11 +152,11 @@ export const productDummyData = [
     },
     {
         id: "prod_6",
-        name: "Security Camera",
-        description: "Security Camera with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
+        name: "Dheros",
+        description: "Fresh and tender dherosh, perfect for curries, stir-fries, and soups. Grown with high-quality farming practices, ensuring natural flavor and crisp texture. A healthy and versatile vegetable that adds nutrition and taste to every meal.",
         mrp: 59,
         price: 29,
-        images: [product_img6],
+        images: [dheros],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
@@ -154,11 +167,11 @@ export const productDummyData = [
     },
     {
         id: "prod_7",
-        name: "Smart Pen for iPad",
-        description: "Smart Pen for iPad with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
+        name: "Potol",
+        description: "Fresh and tender potol, perfect for curries, stir-fries, and traditional dishes. Grown with high-quality farming practices, ensuring natural flavor and crisp texture. A nutritious and versatile vegetable that enhances every meal with taste and health.",
         mrp: 89,
         price: 29,
-        images: [product_img7],
+        images: [potol],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
@@ -169,11 +182,11 @@ export const productDummyData = [
     },
     {
         id: "prod_8",
-        name: "Home Theater",
-        description: "Home Theater with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
+        name: "Morich",
+        description: "Fresh and fiery morich, perfect for adding bold spice and flavor to any dish. Grown with high-quality farming practices, ensuring vibrant color, crisp texture, and intense taste. A must-have ingredient to elevate your meals with zest and heat.",
         mrp: 99,
         price: 29,
-        images: [product_img8],
+        images: [morich],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
@@ -184,11 +197,11 @@ export const productDummyData = [
     },
     {
         id: "prod_9",
-        name: "Apple Wireless Earbuds",
-        description: "Apple Wireless Earbuds with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
+        name: "Laal shakh",
+        description: "Fresh and vibrant lal shakh, perfect for soups, curries, and stir-fries. Packed with nutrients and natural flavor, it adds color and health to every meal.",
         mrp: 89,
         price: 29,
-        images: [product_img9],
+        images: [lal_shakh],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
@@ -199,11 +212,11 @@ export const productDummyData = [
     },
     {
         id: "prod_10",
-        name: "Apple Smart Watch",
-        description: "Apple Smart Watch with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
+        name: "Deshi Roshun",
+        description: "Fresh deshi roshun (garlic) with rich aroma and bold flavor. Perfect for enhancing curries, sauces, and traditional dishes with natural taste and health benefits.",
         mrp: 179,
         price: 29,
-        images: [product_img10],
+        images: [deshi_roshun],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
@@ -214,11 +227,11 @@ export const productDummyData = [
     },
     {
         id: "prod_11",
-        name: "RGB Gaming Mouse",
-        description: "RGB Gaming Mouse with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
+        name: "Lau",
+        description: "Fresh and tender lau (bottle gourd), perfect for soups, curries, and stir-fries. Naturally healthy and versatile, adding light flavor and nutrition to every meal.",
         mrp: 39,
         price: 29,
-        images: [product_img11],
+        images: [lau],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
@@ -229,11 +242,11 @@ export const productDummyData = [
     },
     {
         id: "prod_12",
-        name: "Smart Home Cleaner",
-        description: "Smart Home Cleaner with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
+        name: "Capsicum",
+        description: "Fresh and crunchy capsicum, perfect for salads, stir-fries, and cooking. Vibrant in color and full of flavor, it adds nutrition and taste to every dish.",
         mrp: 199,
         price: 29,
-        images: [product_img12],
+        images: [capsicum],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
@@ -246,7 +259,7 @@ export const productDummyData = [
 
 export const ourSpecsData = [
     { title: "Free Shipping", description: "Enjoy fast, free delivery on every order no conditions, just reliable doorstep.", icon: SendIcon, accent: '#05DF72' },
-    { title: "7 Days easy Return", description: "Change your mind? No worries. Return any item within 7 days.", icon: ClockFadingIcon, accent: '#FF8904' },
+    { title: "Instant Return", description: "Change your mind? No worries. Return any item instantly.", icon: ClockFadingIcon, accent: '#FF8904' },
     { title: "24/7 Customer Support", description: "We're here for you. Get expert help with our customer support.", icon: HeadsetIcon, accent: '#A684FF' }
 ]
 
