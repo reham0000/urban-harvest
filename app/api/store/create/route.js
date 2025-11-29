@@ -8,7 +8,7 @@ import { NextResponse } from "next/server";
 
 export async function POST(request) {
   try {
-    const { userId } = getAuth(request);
+    const { userId } = getAuth (request);
     const formData = await request.formData();
 
     const name = formData.get("name");
